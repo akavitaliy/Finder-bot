@@ -4,7 +4,7 @@ require 'fileutils'
 require_relative 'get_file.rb'
 require_relative 'watir_pars.rb'
 
-token = '5463297788:AAGvo83Ssah8YBO7h-wbgiIksJeGZ0U2XsE'
+token = ''
 
 Telegram::Bot::Client.run(token) do |bot|
     bot.listen do |message|
